@@ -1,0 +1,21 @@
+{
+  "name": "noted",
+  "version": "1.0.0",
+  "description": "A command line note app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "OOP",
+    "es6",
+    "typescript",
+    "stuff"
+  ],
+  "author": "Alan COle",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.3",
+    "typescript": "^3.1.6"
+  }
+}
