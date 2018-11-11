@@ -2,9 +2,12 @@
   "name": "noted",
   "version": "1.0.0",
   "description": "A command line note app",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node ./lib/index.js",
+    "dev": "ts-node ./src/index.ts",
+    "prod": "tsc; npm start"
   },
   "keywords": [
     "OOP",
@@ -16,6 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^10.12.3",
+    "ts-node": "^7.0.1",
     "typescript": "^3.1.6"
   }
 }
